@@ -37,8 +37,6 @@ To get a count of installed packages in each of your libraries, use `lib_summary
 library(libminer)
 
 lib_summary()
-#specify sizes = TRUE
-lib_summary(sizes = TRUE)
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:

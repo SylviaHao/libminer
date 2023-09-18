@@ -29,20 +29,10 @@ To get a count of installed packages in each of your libraries, use
 library(libminer)
 
 lib_summary()
-#>                                                                                       Library
-#> 1                        /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
-#> 2 /private/var/folders/t7/cprccssd0cqc5fmp0pqysy3w0000gn/T/Rtmpg7M63M/temp_libpath57fbe3107f1
+#>                                                                Library
+#> 1 /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
 #>   n_packages
 #> 1        358
-#> 2          1
-#specify sizes = TRUE
-lib_summary(sizes = TRUE)
-#>                                                                                       Library
-#> 1                        /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
-#> 2 /private/var/folders/t7/cprccssd0cqc5fmp0pqysy3w0000gn/T/Rtmpg7M63M/temp_libpath57fbe3107f1
-#>   n_packages   lib_size
-#> 1        358 1475704765
-#> 2          1      14731
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
